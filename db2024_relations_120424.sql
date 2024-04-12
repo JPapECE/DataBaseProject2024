@@ -15,7 +15,7 @@ CREATE TABLE Recipe_Meal_Type(
     ON UPDATE CASCADE
 );
 
-CREATE TABLE Recipe_label(
+CREATE TABLE Recipe_Label(
 	recipe_id INT UNSIGNED NOT NULL,
     label_id INT UNSIGNED NOT NULL,
     primary key(recipe_id,label_id),
@@ -28,6 +28,23 @@ CREATE TABLE Recipe_label(
     fk_recipe_label_label 
     FOREIGN KEY (label_id) 
     REFERENCES label (label_id) 
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE
+);
+
+CREATE TABLE Recipe_Cook(
+	recipe_id INT UNSIGNED NOT NULL,
+    cook_id INT UNSIGNED NOT NULL,
+    primary key(recipe_id,cook_id),
+    CONSTRAINT fk_recipe_cook_recipe 
+    FOREIGN KEY (recipe_id) 
+    REFERENCES recipe (recipe_id) 
+    ON DELETE RESTRICT 
+    ON UPDATE CASCADE,
+    CONSTRAINT 
+    fk_recipe_cook_cook
+    FOREIGN KEY (cook_id) 
+    REFERENCES Cook(cook_id) 
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
