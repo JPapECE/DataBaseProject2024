@@ -66,9 +66,6 @@ CREATE TABLE Recipe(
     prep_time INT UNSIGNED NOT NULL,
     portions INT UNSIGNED NOT NULL DEFAULT 1,
     basic_ingredient_id INT UNSIGNED NOT NULL,
-    fat_per_portion INT UNSIGNED NOT NULL,
-    carbs_per_portion INT UNSIGNED NOT NULL,
-    protein_per_portion INT UNSIGNED NOT NULL,
     image_id INT UNSIGNED NOT NULL,
     CHECK (recipe_type IN ('Cooking','Pastry')),
     CHECK (difficulty_level <= 5 AND difficulty_level >=1),
@@ -154,6 +151,21 @@ CREATE TABLE Cook(
         ON DELETE RESTRICT
         ON UPDATE CASCADE
     );
+    
+CREATE TABLE Nutritional_Info(
+	nutritional_info_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    recipe_id INT UNSIGNED NOT NULL,
+    fat_per_portion INT UNSIGNED NOT NULL,
+    carbs_per_portion INT UNSIGNED NOT NULL,
+    protein_per_portion INT UNSIGNED NOT NULL,
+    calories INT UNSIGNED DEFAULT NULL,
+    CONSTRAINT fk_nutritional_info_recipe
+		FOREIGN KEY (recipe_id)
+        REFERENCES Recipe (recipe_id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
+    
+);
     
 CREATE TABLE Recipe_Meal_Type(
 	recipe_id INT UNSIGNED NOT NULL,
