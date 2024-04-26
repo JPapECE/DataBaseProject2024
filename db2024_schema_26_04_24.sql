@@ -217,6 +217,8 @@ CREATE TABLE Recipe_Equipment (
 CREATE TABLE Recipe_Ingredient (
 	recipe_id INT UNSIGNED,
 	ingredient_id INT UNSIGNED,
+    portion INT UNSIGNED NOT NULL,
+    calories INT UNSIGNED DEFAULT NULL,
     PRIMARY KEY(recipe_id,ingredient_id),
     CONSTRAINT fk_recipe_ingredient_recipe 
     FOREIGN KEY (recipe_id) 
