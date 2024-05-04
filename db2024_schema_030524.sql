@@ -159,7 +159,7 @@ CREATE TABLE Nutritional_Info(
     fat_per_portion INT UNSIGNED NOT NULL,
     carbs_per_portion INT UNSIGNED NOT NULL,
     protein_per_portion INT UNSIGNED NOT NULL,
-    calories INT UNSIGNED DEFAULT NULL,
+    calories INT UNSIGNED DEFAULT 0,
     CONSTRAINT fk_nutritional_info_recipe
 		FOREIGN KEY (recipe_id)
         REFERENCES Recipe (recipe_id)
@@ -167,6 +167,34 @@ CREATE TABLE Nutritional_Info(
         ON UPDATE CASCADE
     
 );
+
+DELIMITER //
+CREATE TRIGGER calculate_calories_trigger
+BEFORE INSERT ON Recipe_Ingredient
+FOR EACH ROW
+BEGIN
+	DECLARE calories_per_unit INT UNSIGNED;
+	DECLARE calories_of_ingredient INT UNSIGNED;
+    DECLARE recipe INT UNSIGNED; 
+	SET calories_per_unit =  (SELECT calories_per_unit 
+        FROM Ingredient 
+        WHERE ingredient_id = NEW.ingredient_id
+    );
+    -- Calculate calories for the newly inserted ingredient
+    SET NEW.calories = NEW.portion * calories_per_unit;
+    
+   
+    
+     SET calories_of_ingredient = NEW.calories;
+     SET recipe = NEW.recipe_id;
+    -- Update Nutritional_Info table with the calculated calories
+    UPDATE Nutritional_Info
+    SET calories = calories + calories_of_ingredient
+    WHERE recipe_id = recipe;
+END;
+//
+DELIMITER ;
+
     
 CREATE TABLE Recipe_Meal_Type(
 	recipe_id INT UNSIGNED NOT NULL,
