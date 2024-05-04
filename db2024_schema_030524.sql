@@ -140,7 +140,7 @@ CREATE TABLE Cook(
     user_id INT UNSIGNED NOT NULL REFERENCES User  ON DELETE CASCADE,
 	first_name VARCHAR(45) NOT NULL,
 	last_name VARCHAR(45) NOT NULL,
-	phone_number VARCHAR(15) NOT NULL CHECK (phone_number LIKE '[0-9]*10'),
+	phone_number VARCHAR(15) NOT NULL CHECK (phone_number REGEXP '^[0-9]{10}$'),
     date_of_birth DATE NOT NULL,
     age INT UNSIGNED,
     years_of_experience INT UNSIGNED NOT NULL,
@@ -388,3 +388,13 @@ JOIN
 	Episode e ON ej.episode_id = e.episode_id OR e.episode_id = ec.episode_id
 GROUP BY
     c.cook_id;
+    
+    
+DELIMITER //
+CREATE TRIGGER calculate_age_trigger BEFORE INSERT ON Cook
+FOR EACH ROW
+BEGIN
+    SET NEW.age = timestampdiff(YEAR,NEW.date_of_birth,CURDATE());
+END;
+//
+DELIMITER ;
