@@ -168,32 +168,7 @@ CREATE TABLE Nutritional_Info(
     
 );
 
-DELIMITER //
-CREATE TRIGGER calculate_calories_trigger
-BEFORE INSERT ON Recipe_Ingredient
-FOR EACH ROW
-BEGIN
-	DECLARE calories_per_unit INT UNSIGNED;
-	DECLARE calories_of_ingredient INT UNSIGNED;
-    DECLARE recipe INT UNSIGNED; 
-	SET calories_per_unit =  (SELECT calories_per_unit 
-        FROM Ingredient 
-        WHERE ingredient_id = NEW.ingredient_id
-    );
-    -- Calculate calories for the newly inserted ingredient
-    SET NEW.calories = NEW.portion * calories_per_unit;
-    
-   
-    
-     SET calories_of_ingredient = NEW.calories;
-     SET recipe = NEW.recipe_id;
-    -- Update Nutritional_Info table with the calculated calories
-    UPDATE Nutritional_Info
-    SET calories = calories + calories_of_ingredient
-    WHERE recipe_id = recipe;
-END;
-//
-DELIMITER ;
+
 
     
 CREATE TABLE Recipe_Meal_Type(
@@ -388,34 +363,7 @@ CREATE TABLE Rates(
     ON UPDATE CASCADE
 );
 
-CREATE VIEW Cook_Recipe_Count AS
-SELECT
-    c.cook_id,
-    CONCAT(c.first_name, ' ', c.last_name) AS cook_name,
-    COUNT(rc.recipe_id) AS recipe_count,
-    c.age AS age
-FROM
-    Cook c
-JOIN
-    Recipe_Cook rc ON c.cook_id = rc.cook_id
-GROUP BY
-    c.cook_id;
 
-CREATE VIEW Cook_Episode_Count AS
-SELECT
-    c.cook_id,
-    CONCAT(c.first_name, ' ', c.last_name) AS cook_name,
-    COUNT(ej.episode_id + ec.episode_id) AS episode_count
-FROM
-    Cook c
-LEFT JOIN
-    Episode_combo ec ON ec.cook_id = c.cook_id
-LEFT JOIN
-	Episode_Judge ej ON ej.judge_id = c.cook_id
-JOIN
-	Episode e ON ej.episode_id = e.episode_id OR e.episode_id = ec.episode_id
-GROUP BY
-    c.cook_id;
     
     
 DELIMITER //
@@ -423,6 +371,33 @@ CREATE TRIGGER calculate_age_trigger BEFORE INSERT ON Cook
 FOR EACH ROW
 BEGIN
     SET NEW.age = timestampdiff(YEAR,NEW.date_of_birth,CURDATE());
+END;
+//
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER calculate_calories_trigger
+BEFORE INSERT ON Recipe_Ingredient
+FOR EACH ROW
+BEGIN
+	DECLARE calories_per_unit INT UNSIGNED;
+	DECLARE calories_of_ingredient INT UNSIGNED;
+    DECLARE recipe INT UNSIGNED; 
+	SET calories_per_unit =  (SELECT calories_per_unit 
+        FROM Ingredient 
+        WHERE ingredient_id = NEW.ingredient_id
+    );
+    -- Calculate calories for the newly inserted ingredient
+    SET NEW.calories = NEW.portion * calories_per_unit;
+    
+   
+    
+     SET calories_of_ingredient = NEW.calories;
+     SET recipe = NEW.recipe_id;
+    -- Update Nutritional_Info table with the calculated calories
+    UPDATE Nutritional_Info
+    SET calories = calories + calories_of_ingredient
+    WHERE recipe_id = recipe;
 END;
 //
 DELIMITER ;
