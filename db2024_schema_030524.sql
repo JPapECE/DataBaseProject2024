@@ -55,6 +55,7 @@ CREATE TABLE Ingredient(
 CREATE TABLE Recipe(
 	recipe_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
 	recipe_type varchar(50),
+    active bool DEFAULT TRUE,
     name varchar(50) NOT NULL UNIQUE,
 	national_cuisine_id INT UNSIGNED,
     difficulty_level INT UNSIGNED NOT NULL,
@@ -138,6 +139,7 @@ CREATE TABLE Thematic_Unit(
 CREATE TABLE Cook(
 	cook_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     user_id INT UNSIGNED NOT NULL REFERENCES User  ON DELETE CASCADE,
+    active bool DEFAULT TRUE,
 	first_name VARCHAR(45) NOT NULL,
 	last_name VARCHAR(45) NOT NULL,
 	phone_number VARCHAR(15) NOT NULL CHECK (phone_number REGEXP '^[0-9]{10}$'),
