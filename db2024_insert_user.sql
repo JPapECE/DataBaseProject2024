@@ -94,7 +94,7 @@ insert into User (user_id, username, password) values (93, 'bbalch2k', 'aF2(xrsu
 insert into User (user_id, username, password) values (94, 'vlevin2l', 'iD6!$psRzKHG');
 insert into User (user_id, username, password) values (95, 'cstavers2m', 'tU9_1NM#gnh|q4w)');
 insert into User (user_id, username, password) values (96, 'lwardhaw2n', 'oW1>+!KVJcQD');
-insert into User (user_id, username, password) values (97, 'lfosken2o', 'pF6"2yzb7&n@\');
+insert into User (user_id, username, password) values (97, 'lfosken2o', 'pF62yzb7&n@');
 insert into User (user_id, username, password) values (98, 'ddymick2p', 'gN3(+TxK');
 insert into User (user_id, username, password) values (99, 'mwinson2q', 'rL6<f<@(');
 insert into User (user_id, username, password) values (100, 'pdaily2r', 'wO8>vjiZX');
