@@ -400,6 +400,31 @@ BEGIN
     UPDATE Nutritional_Info
     SET calories = calories + calories_of_ingredient
     WHERE recipe_id = recipe;
+    INSERT INTO Recipe_Ingredient(recipe_id,ingredient_id,portion,calories) VALUES (new.recipe_id,new.ingredient_id,new,portion,new.calories);
+END;
+//
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER inactive_cook
+BEFORE DELETE ON Cook
+FOR EACH ROW
+BEGIN
+    UPDATE Cook
+    SET active = FALSE
+    WHERE cook_id = OLD.cook_id;
+END;
+//
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER recipe_update_trigger
+BEFORE UPDATE ON Recipe
+FOR EACH ROW
+BEGIN
+	SET OLD.active = FALSE; -- Deactivate old version
+	INSERT INTO Recipe (recipe_id, recipe_type, name, national_cuisine_id, difficulty_level, description, tip1, tip2, tip3, cooking_time, prep_time, portions, basic_ingredient_id, image_id, active)
+	VALUES (NEW.recipe_id, NEW.recipe_type, NEW.name, NEW.national_cuisine_id, NEW.difficulty_level, NEW.description, NEW.tip1, NEW.tip2, NEW.tip3, NEW.cooking_time, NEW.prep_time, NEW.portions, NEW.basic_ingredient_id, NEW.image_id, TRUE);
 END;
 //
 DELIMITER ;
