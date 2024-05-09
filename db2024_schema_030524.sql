@@ -15,7 +15,7 @@ CREATE TABLE Admin(
 
 CREATE TABLE image (
 	image_id  INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
-    image BLOB,
+    image_url VARCHAR(1000) NOT NULL,
     description TEXT
 );
 CREATE TABLE National_Cuisine(
@@ -273,7 +273,13 @@ CREATE TABLE Episode(
     year INT UNSIGNED NOT NULL,
     episode_number INT UNSIGNED NOT NULL,
     winner_cook_id INT UNSIGNED DEFAULT NULL,
-    UNIQUE (year,episode_number)
+    image_id INT UNSIGNED NOT NULL, 
+	UNIQUE (year,episode_number),
+	CONSTRAINT fk_Episode_image
+		FOREIGN KEY (image_id)
+        REFERENCES Image (image_id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
 );
 CREATE TABLE Recipe_Cook(
 	recipe_id INT UNSIGNED NOT NULL,
