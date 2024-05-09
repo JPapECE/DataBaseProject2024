@@ -1,3 +1,4 @@
+#a view to see how many recipes each cook has
 CREATE VIEW Cook_Recipe_Count AS
 SELECT
     c.cook_id,
@@ -11,6 +12,7 @@ JOIN
 GROUP BY
     c.cook_id;
 
+#a view that shows for each cook the time of total episode appearances (both contestnt and judges)
 CREATE VIEW Cook_Episode_Count AS
 SELECT
     c.cook_id,
@@ -22,11 +24,26 @@ LEFT JOIN
     Episode_combo ec ON ec.cook_id = c.cook_id
 LEFT JOIN
 	Episode_Judge ej ON ej.judge_id = c.cook_id
-JOIN
-	Episode e ON ej.episode_id = e.episode_id OR e.episode_id = ec.episode_id
+#JOIN
+#	Episode e ON ej.episode_id = e.episode_id OR e.episode_id = ec.episode_id
 GROUP BY
     c.cook_id;
-    
+
+#a view that shows for each cook the time of total episode on a year appearances as a judge  
+CREATE VIEW Judge_Episode_Count_per_Year AS
+SELECT
+    ej.judge_id AS judge_id,
+    CONCAT(c.first_name, ' ', c.last_name) AS judge_name,
+    e.year AS year,
+    COUNT(ej.episode_id) AS judge_count_for_that_year
+FROM
+    Cook c
+JOIN
+	Episode_Judge ej ON ej.judge_id = c.cook_id
+JOIN
+	Episode e ON ej.episode_id = e.episode_id
+GROUP BY
+    c.cook_id,e.year;
 CREATE VIEW Episode_Combo_Total_Rating AS
 SELECT
     ec.cook_id,
