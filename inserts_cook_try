@@ -1,5 +1,4 @@
-Χρησιμοποιείται 89% του αποθηκευτικού χώρου … Αν εξαντληθεί, δεν μπορείτε να δημιουργείτε, να επεξεργάζεστε και να ανεβάζετε αρχεία. Αποκτήστε 100 GB αποθηκευτικού χώρου με 1,99 € 0 € για 1 μήνα (εξατομικευμένη τιμή).
-BEGIN;
+
 INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (14, 1);
 
 INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 1);
