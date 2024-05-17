@@ -1,4 +1,3 @@
-Χρησιμοποιείται 89% του αποθηκευτικού χώρου … Αν εξαντληθεί, δεν μπορείτε να δημιουργείτε, να επεξεργάζεστε και να ανεβάζετε αρχεία. Αποκτήστε 100 GB αποθηκευτικού χώρου με 1,99 € 0 € για 1 μήνα (εξατομικευμένη τιμή).
 BEGIN;
 INSERT INTO Recipe (recipe_type, name, national_cuisine_id, difficulty_level, description, tip1, tip2, tip3, cooking_time, prep_time, portions, basic_ingredient_id, image_id) VALUES ('cooking', 'Jamaican Jerk Chicken', 1, 1, 'Role own court near. Effort result here approach foreign born race. Worker cultural push section reality.', 'better with slow cooking', 'you need an oven', 'in the fridge for 3 days', 147, 27, 3, 196, 29);
 
