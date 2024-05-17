@@ -1,0 +1,585 @@
+Χρησιμοποιείται 89% του αποθηκευτικού χώρου … Αν εξαντληθεί, δεν μπορείτε να δημιουργείτε, να επεξεργάζεστε και να ανεβάζετε αρχεία. Αποκτήστε 100 GB αποθηκευτικού χώρου με 1,99 € 0 € για 1 μήνα (εξατομικευμένη τιμή).
+BEGIN;
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (14, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (51, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (81, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (22, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (75, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (25, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (59, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (35, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (30, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (27, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (28, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (9, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (69, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (10, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (22, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (15, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (14, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (65, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (61, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (39, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (37, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (22, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (27, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (57, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (60, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (43, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (35, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (63, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (51, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (32, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (38, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (50, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (69, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (62, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (50, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (3, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (72, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (80, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (38, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (40, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (67, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (5, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (76, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (72, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (42, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (15, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (25, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (22, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (27, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (12, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (34, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (35, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (24, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (39, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (7, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (83, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (53, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (80, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (55, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (14, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (8, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (67, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (63, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (34, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (77, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (53, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (45, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (17, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (3, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (50, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (60, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (5, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (65, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (73, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (2, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (59, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (32, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (40, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (56, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (56, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (53, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (49, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (82, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (31, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (23, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (51, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (19, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (32, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (10, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (66, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (17, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (16, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (34, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (8, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (42, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (1, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (28, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (53, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (63, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (15, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (72, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (13, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (64, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (54, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (47, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (5, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (80, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (21, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (22, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (24, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (44, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (74, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (58, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (16, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (36, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (52, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (12, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (53, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (1, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (79, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (72, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (27, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (31, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (37, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (56, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (46, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (62, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (75, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (64, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (35, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (13, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (41, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (22, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (52, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (57, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (54, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (2, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (20, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (1, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (16, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (36, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (17, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (34, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (63, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (74, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (13, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (82, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (24, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (79, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (38, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (41, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (13, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (47, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (29, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (70, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (23, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (77, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (42, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (20, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (8, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (33, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (36, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (28, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (5, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (51, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (42, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (12, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (40, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (55, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (53, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (19, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (69, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (68, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (24, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (6, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (82, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (71, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (20, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (16, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (67, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (48, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (1, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (82, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (54, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (8, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (80, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (30, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (71, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (15, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (56, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (8, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (44, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (75, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (7, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (31, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (72, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (46, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (42, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (28, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (74, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (20, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (9, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (39, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (59, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (82, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (69, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (48, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (33, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (45, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (16, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (43, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (10, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (65, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (40, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (66, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (28, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (73, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (30, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (50, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (6, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (3, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (37, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (78, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (26, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (35, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (38, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (51, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (34, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (70, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (20, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (59, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (57, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (2, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (11, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (80, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (31, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (63, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (77, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (5, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (44, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (43, 20);
