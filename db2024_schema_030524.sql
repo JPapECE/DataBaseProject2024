@@ -224,7 +224,7 @@ CREATE TABLE Recipe_Ingredient (
 	recipe_id INT UNSIGNED,
 	ingredient_id INT UNSIGNED,
     portion INT UNSIGNED NOT NULL,
-    calories INT UNSIGNED DEFAULT NULL,
+    calories INT UNSIGNED DEFAULT 0,
     PRIMARY KEY(recipe_id,ingredient_id),
     CONSTRAINT fk_recipe_ingredient_recipe 
     FOREIGN KEY (recipe_id) 
@@ -299,12 +299,11 @@ CREATE TABLE Recipe_Cook(
 );
 
 CREATE TABLE Episode_Combo(
-	episode_combo_id INT UNSIGNED NOT NULL,
+	episode_combo_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
 	episode_id INT UNSIGNED NOT NULL,
     national_cuisine_id INT UNSIGNED NOT NULL,
     cook_id INT UNSIGNED NOT NULL,
     recipe_id iNT UNSIGNED NOT NULL,
-    PRIMARY KEY (episode_combo_id),
     UNIQUE (episode_id, national_cuisine_id, cook_id, recipe_id),
     CONSTRAINT 
     fk_episode_combo_episode
@@ -333,10 +332,9 @@ CREATE TABLE Episode_Combo(
 );
 
 CREATE TABLE Episode_Judge(
-	episode_judge_id INT UNSIGNED NOT NULL,
+	episode_judge_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
 	episode_id INT UNSIGNED NOT NULL,
     judge_id INT UNSIGNED NOT NULL,
-    PRIMARY KEY (episode_judge_id),
     UNIQUE (episode_id, judge_id),
     CONSTRAINT 
     fk_episode_judge_episode
@@ -384,30 +382,30 @@ END;
 DELIMITER ;
 
 DELIMITER //
-CREATE TRIGGER calculate_calories_trigger
-BEFORE INSERT ON Recipe_Ingredient
-FOR EACH ROW
-BEGIN
-	DECLARE calories_per_unit INT UNSIGNED;
-	DECLARE calories_of_ingredient INT UNSIGNED;
-    DECLARE recipe INT UNSIGNED; 
-	SET calories_per_unit =  (SELECT calories_per_unit 
-        FROM Ingredient 
-        WHERE ingredient_id = NEW.ingredient_id
-    );
+#CREATE TRIGGER calculate_calories_trigger
+#BEFORE INSERT ON Recipe_Ingredient
+#FOR EACH ROW
+#BEGIN
+#	DECLARE calories_per_unit INT UNSIGNED;
+#	DECLARE calories_of_ingredient INT UNSIGNED;
+ #   DECLARE recipe INT UNSIGNED; 
+	#SET calories_per_unit =  (SELECT calories_per_unit 
+     #   FROM Ingredient 
+      #  WHERE ingredient_id = NEW.ingredient_id
+    #);
     -- Calculate calories for the newly inserted ingredient
-    SET NEW.calories = NEW.portion * calories_per_unit;
+   # SET NEW.calories = NEW.portion * calories_per_unit;
     
    
     
-     SET calories_of_ingredient = NEW.calories;
-     SET recipe = NEW.recipe_id;
-    -- Update Nutritional_Info table with the calculated calories
-    UPDATE Nutritional_Info
-    SET calories = calories + calories_of_ingredient
-    WHERE recipe_id = recipe;
-    INSERT INTO Recipe_Ingredient(recipe_id,ingredient_id,portion,calories) VALUES (new.recipe_id,new.ingredient_id,new,portion,new.calories);
-END;
+  #   SET calories_of_ingredient = NEW.calories;
+   #  SET recipe = NEW.recipe_id;
+    #-- Update Nutritional_Info table with the calculated calories
+    #UPDATE Nutritional_Info
+    #SET calories = calories + calories_of_ingredient
+    #WHERE recipe_id = recipe;
+    #INSERT INTO Recipe_Ingredient(recipe_id,ingredient_id,portion,calories) VALUES (new.recipe_id,new.ingredient_id,new,portion,new.calories);
+#END;
 //
 DELIMITER ;
 
@@ -422,4 +420,18 @@ BEGIN
 END;
 //
 DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER inactive_recipe
+BEFORE DELETE ON Recipe
+FOR EACH ROW
+BEGIN
+    UPDATE Recipe
+    SET active = FALSE
+    WHERE recipe_id = OLD.recipe_id;
+END;
+//
+DELIMITER ;
+
+
 
