@@ -7590,3 +7590,1600 @@ INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 83);
 INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 83);
 
 INSERT INTO Recipe_Cook (recipe_id, cook_id) V
+ALUES (74, 83);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 83);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (84, 'Bridget','Hoffman', 8185901658, '1988-11-14', 4, 'sous chef', 412);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (84, 6);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (36, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (37, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (38, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (39, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (40, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 84);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 84);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (85, 'Kenneth','Norris', 3650374464, '1994-07-29', 9, 'A', 413);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (85, 5);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (36, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (37, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (38, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (39, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (40, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (56, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (57, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (58, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (59, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (60, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (76, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (77, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (78, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (79, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (80, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (11, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (12, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (13, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (14, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (15, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 85);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 85);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (86, 'Kyle','Oneill', 6980923563, '1967-10-30', 25, 'C', 414);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (86, 17);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (71, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (74, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (61, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (62, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (63, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (64, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (65, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (11, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (12, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (13, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (14, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (15, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (101, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (102, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (103, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (104, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (105, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 86);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 86);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (87, 'David','Mosley', 2695838514, '1963-06-29', 28, 'A', 415);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (87, 6);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (61, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (62, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (63, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (64, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (65, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (56, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (57, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (58, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (59, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (60, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (71, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (74, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (36, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (37, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (38, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (39, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (40, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 87);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 87);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (88, 'Tamara','Cooper', 5360174314, '1989-05-25', 3, 'sous chef', 416);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (88, 8);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (71, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (74, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (56, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (57, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (58, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (59, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (60, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 88);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 88);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (89, 'Nancy','Shelton', 2287292060, '1967-10-30', 22, 'chef', 417);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (89, 5);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (36, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (37, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (38, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (39, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (40, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (91, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (92, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (93, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (94, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (95, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 89);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 89);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (90, 'Curtis','Cruz', 1717448901, '1989-01-20', 1, 'C', 418);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (90, 4);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (101, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (102, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (103, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (104, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (105, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (61, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (62, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (63, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (64, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (65, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (36, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (37, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (38, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (39, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (40, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 90);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 90);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (91, 'Victoria','Mitchell', 2051080764, '1973-10-04', 6, 'sous chef', 419);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (91, 19);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (56, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (57, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (58, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (59, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (60, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (101, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (102, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (103, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (104, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (105, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 91);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 91);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (92, 'Lindsey','Jackson', 6030038850, '1989-01-08', 7, 'sous chef', 420);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (92, 1);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 92);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 92);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (93, 'Travis','Mclaughlin', 6468811998, '1963-08-27', 14, 'B', 421);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 18);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (93, 16);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (56, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (57, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (58, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (59, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (60, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (91, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (92, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (93, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (94, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (95, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 93);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 93);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (94, 'Matthew','Reynolds', 2757983146, '1967-08-07', 27, 'B', 422);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (94, 10);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (71, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (74, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (51, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (52, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (53, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (54, 94);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (55, 94);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (95, 'Caleb','Clark', 9961000177, '1989-11-23', 3, 'A', 423);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 9);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (95, 4);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (61, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (62, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (63, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (64, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (65, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (51, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (52, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (53, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (54, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (55, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 95);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 95);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (96, 'Leslie','Campbell', 3252780230, '1960-10-22', 30, 'B', 424);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 20);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (96, 4);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (71, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (74, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (101, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (102, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (103, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (104, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (105, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (51, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (52, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (53, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (54, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (55, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (11, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (12, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (13, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (14, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (15, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 96);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 96);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (97, 'Dawn','Schaefer', 3279557799, '1965-05-27', 19, 'sous chef', 425);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 6);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 4);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 19);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 2);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (97, 10);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (31, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (32, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (33, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (34, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (35, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (21, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (22, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (23, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (24, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (25, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (96, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (97, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (98, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (99, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (100, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (11, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (12, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (13, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (14, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (15, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (51, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (52, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (53, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (54, 97);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (55, 97);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (98, 'Cody','Smith', 5126789103, '1987-11-06', 15, 'A', 426);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (98, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (98, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (98, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (98, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (98, 17);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (98, 8);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (61, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (62, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (63, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (64, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (65, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (76, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (77, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (78, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (79, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (80, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (86, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (87, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (88, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (89, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (90, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 98);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 98);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (99, 'Monique','Matthews', 2202951315, '1967-03-30', 15, 'A', 427);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 15);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 5);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 12);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 14);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 16);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 1);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 10);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 3);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (99, 9);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (76, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (77, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (78, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (79, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (80, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (26, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (27, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (28, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (29, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (30, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (61, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (62, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (63, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (64, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (65, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (71, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (72, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (73, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (74, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (75, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (81, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (82, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (83, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (84, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (85, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (6, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (7, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (8, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (9, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (10, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (51, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (52, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (53, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (54, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (55, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (16, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (17, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (18, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (19, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (20, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (46, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (47, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (48, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (49, 99);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (50, 99);
+
+INSERT INTO Cook (user_id, first_name, last_name, phone_number, date_of_birth, years_of_experience, chef_status, image_id) VALUES (100, 'Ashley','Boyle', 7987075349, '1992-04-22', 10, 'A', 428);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 13);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 7);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 8);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 11);
+
+INSERT INTO Cook_National_Cuisine (cook_id, national_cuisine_id) VALUES (100, 10);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (66, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (67, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (68, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (69, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (70, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (36, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (37, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (38, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (39, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (40, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (41, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (42, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (43, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (44, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (45, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (56, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (57, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (58, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (59, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (60, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (51, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (52, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (53, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (54, 100);
+
+INSERT INTO Recipe_Cook (recipe_id, cook_id) VALUES (55, 100);
