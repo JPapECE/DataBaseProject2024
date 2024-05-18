@@ -162,3 +162,4 @@ DELIMITER ;
 
 
 CALL competition_draw();
+CALL insert_ratings();
