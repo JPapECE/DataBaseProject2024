@@ -1,3 +1,4 @@
+DROP VIEW IF EXISTS Judge_Episode_Count_per_Year;
 #a view that shows for each cook the time of total episode on a year appearances as a judge  
 CREATE VIEW Judge_Episode_Count_per_Year AS
 SELECT
@@ -19,7 +20,8 @@ SELECT
     jecy1.judge_name AS judge_name_1,
     jecy2.judge_id AS judge_id_2,
     jecy2.judge_name AS judge_name_2,
-    jecy1. judge_count_for_that_year AS judge_appearances
+    jecy1. judge_count_for_that_year AS judge_appearances,
+    jecy1.year
 FROM
     Judge_Episode_Count_per_Year jecy1
 JOIN
@@ -28,5 +30,6 @@ ON
     jecy1.year = jecy2.year
     AND  jecy1.judge_count_for_that_year = jecy2.judge_count_for_that_year 
     AND jecy1.judge_id <  jecy2.judge_id
-WHERE jecy1. judge_count_for_that_year  > 3;
+WHERE jecy1. judge_count_for_that_year  > 3
+;
 
