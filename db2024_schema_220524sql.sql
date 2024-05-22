@@ -383,30 +383,30 @@ END;
 DELIMITER ;
 
 DELIMITER //
-#CREATE TRIGGER calculate_calories_trigger
-#BEFORE INSERT ON Recipe_Ingredient
-#FOR EACH ROW
-#BEGIN
-#	DECLARE calories_per_unit INT UNSIGNED;
-#	DECLARE calories_of_ingredient INT UNSIGNED;
- #   DECLARE recipe INT UNSIGNED; 
-	#SET calories_per_unit =  (SELECT calories_per_unit 
-     #   FROM Ingredient 
-      #  WHERE ingredient_id = NEW.ingredient_id
-    #);
+CREATE TRIGGER calculate_calories_trigger
+BEFORE INSERT ON Recipe_Ingredient
+FOR EACH ROW
+BEGIN
+	DECLARE calories_per_unit_temp INT UNSIGNED;
+	DECLARE calories_of_ingredient INT UNSIGNED;
+    DECLARE recipe INT UNSIGNED; 
+	SET calories_per_unit_temp =  (SELECT calories_per_unit 
+        FROM Ingredient 
+        WHERE ingredient_id = NEW.ingredient_id
+    );
     -- Calculate calories for the newly inserted ingredient
-   # SET NEW.calories = NEW.portion * calories_per_unit;
+    SET NEW.calories = NEW.portion * calories_per_unit_temp;
     
    
     
-  #   SET calories_of_ingredient = NEW.calories;
-   #  SET recipe = NEW.recipe_id;
-    #-- Update Nutritional_Info table with the calculated calories
-    #UPDATE Nutritional_Info
-    #SET calories = calories + calories_of_ingredient
-    #WHERE recipe_id = recipe;
+     SET calories_of_ingredient = NEW.portion * calories_per_unit_temp;
+     SET recipe = NEW.recipe_id;
+    -- Update Nutritional_Info table with the calculated calories
+    UPDATE Nutritional_Info
+    SET calories = calories + calories_of_ingredient
+    WHERE recipe_id = recipe;
     #INSERT INTO Recipe_Ingredient(recipe_id,ingredient_id,portion,calories) VALUES (new.recipe_id,new.ingredient_id,new,portion,new.calories);
-#END;
+END;
 //
 DELIMITER ;
 
