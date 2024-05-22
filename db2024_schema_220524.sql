@@ -405,33 +405,62 @@ BEGIN
     UPDATE Nutritional_Info
     SET calories = calories + calories_of_ingredient
     WHERE recipe_id = recipe;
+    #INSERT INTO Recipe_Ingredient(recipe_id,ingredient_id,portion,calories) VALUES (new.recipe_id,new.ingredient_id,new,portion,new.calories);
 END;
 //
 DELIMITER ;
 
-DELIMITER //
-CREATE TRIGGER inactive_cook
-BEFORE DELETE ON Cook
-FOR EACH ROW
-BEGIN
-    UPDATE Cook
-    SET active = FALSE
-    WHERE cook_id = OLD.cook_id;
-END;
-//
-DELIMITER ;
+CREATE UNIQUE INDEX idx_national_cuisine_country_name ON National_Cuisine(country_name);
+CREATE INDEX idx_recipe_national_cuisine_id ON Recipe(national_cuisine_id);
+CREATE INDEX idx_recipe_basic_ingredient_id ON Recipe(basic_ingredient_id);
+CREATE INDEX idx_nutritional_info_recipe_id ON Nutritional_Info(recipe_id);
 
-DELIMITER //
-CREATE TRIGGER inactive_recipe
-BEFORE DELETE ON Recipe
-FOR EACH ROW
-BEGIN
-    UPDATE Recipe
-    SET active = FALSE
-    WHERE recipe_id = OLD.recipe_id;
-END;
-//
-DELIMITER ;
+-- Indexes for Recipe_Meal_Type table
+CREATE INDEX idx_recipe_meal_type_recipe_id ON Recipe_Meal_Type(recipe_id);
+CREATE INDEX idx_recipe_meal_type_meal_type_id ON Recipe_Meal_Type(meal_type_id);
+
+-- Indexes for Recipe_Label table
+CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
+CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
+
+-- Indexes for Recipe_Equipment table
+CREATE INDEX idx_recipe_equipment_recipe_id ON Recipe_Equipment(recipe_id);
+CREATE INDEX idx_recipe_equipment_equipment_id ON Recipe_Equipment(equipment_id);
+
+-- Indexes for Recipe_Ingredient table
+CREATE INDEX idx_recipe_ingredient_recipe_id ON Recipe_Ingredient(recipe_id);
+CREATE INDEX idx_recipe_ingredient_ingredient_id ON Recipe_Ingredient(ingredient_id);
+
+-- Indexes for Recipe_Thematic_Unit table
+CREATE INDEX idx_recipe_thematic_unit_recipe_id ON Recipe_Thematic_Unit(recipe_id);
+CREATE INDEX idx_recipe_thematic_unit_thematic_unit_id ON Recipe_Thematic_Unit(thematic_unit_id);
+
+-- Indexes for Cook_National_Cuisine table
+CREATE INDEX idx_cook_national_cuisine_cook_id ON Cook_National_Cuisine(cook_id);
+CREATE INDEX idx_cook_national_cuisine_national_cuisine_id ON Cook_National_Cuisine(national_cuisine_id);
+
+-- Indexes for Episode table (Primary Key index already exists)
+CREATE INDEX idx_episode_winner_cook_id ON Episode(winner_cook_id);
+-- Index on year and episode_number
+CREATE INDEX idx_episode_year_episode_number ON Episode(year, episode_number);
+
+-- Indexes for Recipe_Cook table
+CREATE INDEX idx_recipe_cook_recipe_id ON Recipe_Cook(recipe_id);
+CREATE INDEX idx_recipe_cook_cook_id ON Recipe_Cook(cook_id);
+
+-- Indexes for Episode_Combo table
+CREATE INDEX idx_episode_combo_episode_id ON Episode_Combo(episode_id);
+CREATE INDEX idx_episode_combo_national_cuisine_id ON Episode_Combo(national_cuisine_id);
+CREATE INDEX idx_episode_combo_cook_id ON Episode_Combo(cook_id);
+CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
+
+-- Indexes for Episode_Judge table
+CREATE INDEX idx_episode_judge_episode_id ON Episode_Judge(episode_id);
+CREATE INDEX idx_episode_judge_judge_id ON Episode_Judge(judge_id);
+
+-- Indexes for Rates table
+CREATE INDEX idx_rates_episode_combo_id ON Rates(episode_combo_id);
+CREATE INDEX idx_rates_episode_judge_id ON Rates(episode_judge_id);
 
 
 
