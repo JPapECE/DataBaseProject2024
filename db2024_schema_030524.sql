@@ -369,8 +369,11 @@ CREATE TABLE Rates(
     ON UPDATE CASCADE
 );
 
+CREATE TABLE ChefStatus (
+    number_status INT UNSIGNED PRIMARY KEY,
+    chef_status VARCHAR(45) NOT NULL
+);
 
-    
     
 DELIMITER //
 CREATE TRIGGER calculate_age_trigger BEFORE INSERT ON Cook
