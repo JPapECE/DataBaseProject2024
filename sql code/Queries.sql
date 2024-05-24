@@ -215,6 +215,7 @@ GROUP BY
 	year;
     
 #query_10
+#version 1
 use db2024;
 DROP VIEW IF EXISTS Sel_Participations;
 CREATE VIEW Sel_Participations AS
@@ -261,7 +262,36 @@ JOIN
 	Sel_Participations sp2 ON sp2.year = sp1.year + 1
     AND sp1.country = sp2.country
     AND sp1.participations = sp2.participations;
-    
+
+#version 2 of query 10
+DROP VIEW IF EXISTS Cons_Year_Participations;
+CREATE VIEW cons_year_participations AS
+SELECT 
+	sp1.year AS first_year,
+	sp2.year AS second_year,
+    sp1.country AS country,
+    (sp1.participations + sp2.participations) AS participations
+FROM Sel_Participations sp1
+JOIN 
+Sel_Participations sp2
+ON sp1.year + 1 = sp2.year AND sp1.country = sp2.country;
+
+
+SELECT
+	cyp1.first_year AS first_year,
+    cyp1.second_year AS second_year,
+	cyp1.country AS first_country,
+    cyp2.country AS second_country,
+    cyp1.participations AS participations
+FROM
+	Cons_Year_Participations cyp1
+JOIN
+	Cons_Year_Participations cyp2 ON cyp1.first_year = cyp2.first_year 
+    AND cyp1.country != cyp2.country 
+    AND cyp1. participations = cyp2. participations
+    ORDER BY cyp1.first_year,cyp1.participations;
+
+
 #query_11
 SELECT 
 	CONCAT(cj.first_name, ' ', cj.last_name) AS judge_name,
