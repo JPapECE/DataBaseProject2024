@@ -28,8 +28,10 @@ BEGIN
     )
     ORDER BY RAND() LIMIT 1);
     
-    SET episode_combo_cook_id = (SELECT cnc.cook_id FROM Cook_National_Cuisine cnc
-    WHERE cnc.national_cuisine_id = episode_combo_national_cuisine_id
+    SET episode_combo_cook_id = (
+    SELECT cnc.cook_id FROM Cook_National_Cuisine cnc
+    JOIN cook c ON  c.cook_id = cnc.cook_id
+    WHERE cnc.national_cuisine_id = episode_combo_national_cuisine_id AND c.active 
     AND cnc.cook_id NOT IN(
 		SELECT ec.cook_id FROM Episode_Combo ec WHERE ec.episode_id = current_episode_id
     )AND 
@@ -64,8 +66,10 @@ BEGIN
     )
     ORDER BY RAND() LIMIT 1);
     
-    SET episode_combo_cook_id = (SELECT cnc.cook_id FROM Cook_National_Cuisine cnc
-    WHERE cnc.national_cuisine_id = episode_combo_national_cuisine_id
+    SET episode_combo_cook_id = (
+    SELECT cnc.cook_id FROM Cook_National_Cuisine cnc
+    JOIN cook c ON  c.cook_id = cnc.cook_id
+    WHERE cnc.national_cuisine_id = episode_combo_national_cuisine_id AND c.active
     AND cnc.cook_id NOT IN(
 		SELECT ec.cook_id FROM Episode_Combo ec WHERE ec.episode_id = current_episode_id
     ) 
@@ -93,6 +97,7 @@ BEGIN
 		SELECT ej.judge_id FROM Episode_Judge ej WHERE ej.episode_id = current_episode_id
     )
     AND c.cook_id < 4
+    AND c.active
     ORDER BY RAND() LIMIT 1);
     
     INSERT INTO Episode_Judge(episode_id,judge_id) VALUES (current_episode_id , episode_judge_id);
@@ -117,6 +122,7 @@ BEGIN
 			GROUP BY ej.judge_id
 			HAVING COUNT(DISTINCT ej.episode_id) = 3
     ) AND c.cook_id > 3
+    AND c.active
     ORDER BY RAND() LIMIT 1);
     
     
