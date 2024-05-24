@@ -9,6 +9,7 @@ The ER diagram for our database is:
 
 The relational diagram for our database is:
 
-![er_240524_final (1)](https://github.com/JPapECE/DataBaseProject2024/assets/163539472/0b8fb9fc-42e6-47aa-a824-c8bc5cae5ebd)
+![relational_diagram](https://github.com/JPapECE/DataBaseProject2024/assets/163539472/bad9a4b3-692d-41d7-ba1d-2a7055b633d4)
+
 
 
