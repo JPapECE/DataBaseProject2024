@@ -31,7 +31,6 @@ CREATE INDEX idx_episode_judge_episode_id ON Episode_Judge (episode_id);
 
 #Indexes for Recipe
 CREATE INDEX idx_recipe_national_cuisine_id ON Recipe (national_cuisine_id);
-CREATE INDEX idx_recipe_difficulty_level ON Recipe (difficulty_level);
 
 #Indexes for Nutritional_Info
 CREATE INDEX idx_nutritional_info_recipe_id ON Nutritional_Info (recipe_id);
@@ -41,9 +40,6 @@ CREATE INDEX idx_recipe_thematic_unit_thematic_unit_id ON Recipe_Thematic_Unit (
 
 #Indexes for Thematic_Unit
 CREATE INDEX idx_thematic_unit_name ON Thematic_Unit (name);
-
-#Indexes for Food_Group
-CREATE INDEX idx_food_group_name ON Food_Group (name);
 
 #Indexes for Ingredient
 CREATE INDEX idx_ingredient_food_group_id ON Ingredient (food_group_id);
