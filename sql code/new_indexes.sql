@@ -38,9 +38,6 @@ CREATE INDEX idx_nutritional_info_recipe_id ON Nutritional_Info (recipe_id);
 #Indexes for Recipe_Thematic_Unit
 CREATE INDEX idx_recipe_thematic_unit_thematic_unit_id ON Recipe_Thematic_Unit (thematic_unit_id);
 
-#Indexes for Thematic_Unit
-CREATE INDEX idx_thematic_unit_name ON Thematic_Unit (name);
-
 #Indexes for Ingredient
 CREATE INDEX idx_ingredient_food_group_id ON Ingredient (food_group_id);
 
