@@ -10,14 +10,7 @@ CREATE ROLE 'cook_role';
 
 # Grant all privileges to admin_role
 GRANT ALL PRIVILEGES ON db2024.* TO 'admin_role';
-# Grant specific privileges to cook_role
-GRANT SELECT, INSERT, UPDATE ON db2024.Recipe TO 'cook_role';
-GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Ingredient TO 'cook_role';
-GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Label TO 'cook_role';
-GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Thematic_Unit TO 'cook_role';
-GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Equipment TO 'cook_role';
-GRANT SELECT, INSERT, UPDATE ON db2024.Step TO 'cook_role';
-GRANT SELECT, UPDATE ON db2024.cook TO 'cook_role';
+
 
 #commands to make or retrieve a backup for our db
 #mysqldump -u admin_user -p db2024 > db2024_backup.sql
@@ -602,8 +595,7 @@ CREATE INDEX idx_national_cuisine_country_name ON National_Cuisine(country_name)
 CREATE INDEX idx_recipe_national_cuisine_id ON Recipe(national_cuisine_id);
 CREATE INDEX idx_recipe_basic_ingredient_id ON Recipe(basic_ingredient_id);
 CREATE INDEX idx_nutritional_info_recipe_id ON Nutritional_Info(recipe_id);
-CREATE INDEX idx_cook_national_cuisine_cook_id ON Cook_National_Cuisine (cook_id);
-CREATE INDEX idx_cook_national_cuisine_national_cuisine_id ON Cook_National_Cuisine (national_cuisine_id);
+
 
 #Indexes for Recipe_Meal_Type table
 CREATE INDEX idx_recipe_meal_type_recipe_id ON Recipe_Meal_Type(recipe_id);
@@ -653,5 +645,12 @@ CREATE INDEX idx_rates_episode_combo_id ON Rates(episode_combo_id);
 CREATE INDEX idx_rates_episode_judge_id ON Rates(episode_judge_id);
 
 
-
+# Grant specific privileges to cook_role
+GRANT SELECT, INSERT, UPDATE ON db2024.Recipe TO 'cook_role';
+GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Ingredient TO 'cook_role';
+GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Label TO 'cook_role';
+GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Thematic_Unit TO 'cook_role';
+GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Equipment TO 'cook_role';
+GRANT SELECT, INSERT, UPDATE ON db2024.Step TO 'cook_role';
+GRANT SELECT, UPDATE ON db2024.cook TO 'cook_role';
 
