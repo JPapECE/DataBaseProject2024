@@ -33,9 +33,9 @@ SELECT * FROM information_schema.optimizer_trace;
 SET optimizer_trace="enabled=off";
 
 #Indexes 
-CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
-CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
-CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
+#CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
+#CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
+#CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
 
 #force index
 SELECT rl1.label_id AS label_id1, rl2.label_id AS label_id2, COUNT(*) AS pair_count
