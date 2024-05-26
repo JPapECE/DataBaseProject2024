@@ -25,9 +25,9 @@ SELECT * FROM information_schema.optimizer_trace;
 SET optimizer_trace="enabled=off";
 
 #Indexes for Recipe_Equipment table
-CREATE INDEX idx_recipe_equipment_recipe_id ON Recipe_Equipment(recipe_id);
-CREATE INDEX idx_recipe_equipment_equipment_id ON Recipe_Equipment(equipment_id);
-CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
+#CREATE INDEX idx_recipe_equipment_recipe_id ON Recipe_Equipment(recipe_id);
+#CREATE INDEX idx_recipe_equipment_equipment_id ON Recipe_Equipment(equipment_id);
+#CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
 
 #force index query
 SET optimizer_trace="enabled=on";
