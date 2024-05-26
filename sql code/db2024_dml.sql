@@ -601,13 +601,13 @@ CREATE INDEX idx_nutritional_info_recipe_id ON Nutritional_Info(recipe_id);
 CREATE INDEX idx_recipe_meal_type_recipe_id ON Recipe_Meal_Type(recipe_id);
 CREATE INDEX idx_recipe_meal_type_meal_type_id ON Recipe_Meal_Type(meal_type_id);
 
-#Indexes for Recipe_Label table
-CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
-CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
+#Indexes for Recipe_Label table , look at query 06
+#CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
+#CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
 
-#Indexes for Recipe_Equipment table
-CREATE INDEX idx_recipe_equipment_recipe_id ON Recipe_Equipment(recipe_id);
-CREATE INDEX idx_recipe_equipment_equipment_id ON Recipe_Equipment(equipment_id);
+#Indexes for Recipe_Equipment table , look at query 08
+#CREATE INDEX idx_recipe_equipment_recipe_id ON Recipe_Equipment(recipe_id);
+#CREATE INDEX idx_recipe_equipment_equipment_id ON Recipe_Equipment(equipment_id);
 
 #Indexes for Recipe_Ingredient table
 CREATE INDEX idx_recipe_ingredient_recipe_id ON Recipe_Ingredient(recipe_id);
@@ -634,7 +634,7 @@ CREATE INDEX idx_recipe_cook_cook_id ON Recipe_Cook(cook_id);
 CREATE INDEX idx_episode_combo_episode_id ON Episode_Combo(episode_id);
 CREATE INDEX idx_episode_combo_national_cuisine_id ON Episode_Combo(national_cuisine_id);
 CREATE INDEX idx_episode_combo_cook_id ON Episode_Combo(cook_id);
-CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
+#CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id); comment due to queries
 
 #Indexes for Episode_Judge table
 CREATE INDEX idx_episode_judge_episode_id ON Episode_Judge(episode_id);
