@@ -611,3 +611,11 @@ GRANT SELECT, INSERT, UPDATE ON db2024.Recipe_Equipment TO 'cook_role';
 GRANT SELECT, INSERT, UPDATE ON db2024.Step TO 'cook_role';
 GRANT SELECT, UPDATE ON db2024.cook TO 'cook_role';
 
+#View for cooks assigned recipes
+CREATE VIEW Cook_Assigned_Recipes AS
+SELECT r.*
+FROM Recipe r
+JOIN Recipe_Cook rc ON r.recipe_id = rc.recipe_id
+JOIN Cook c ON c.cook_id = rc.cook_id
+WHERE c.user_id = CURRENT_USER();
+
