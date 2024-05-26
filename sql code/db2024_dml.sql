@@ -596,6 +596,8 @@ CREATE INDEX idx_national_cuisine_country_name ON National_Cuisine(country_name)
 #Index on year and episode_number
 CREATE INDEX idx_episode_year_episode_number ON Episode(year, episode_number);
 
+#index on cook age
+CREATE INDEX idx_cook_age ON Cook (age);
 
 
 
