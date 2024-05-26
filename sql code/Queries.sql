@@ -150,6 +150,80 @@ WHERE jecy1. judge_count_for_that_year  > 3
 ;
 
 #query_06
+SELECT 
+rl1.label_id AS label_id1,
+rl2.label_id AS label_id2, 
+COUNT(*) AS pair_count
+FROM Recipe_Label rl1
+JOIN Recipe_Label rl2 
+ON rl1.recipe_id = rl2.recipe_id AND rl1.label_id < rl2.label_id
+JOIN Episode_Combo ec 
+ON rl1.recipe_id = ec.recipe_id
+GROUP BY rl1.label_id, rl2.label_id
+ORDER BY pair_count DESC
+LIMIT 3;
+
+#explain
+EXPLAIN SELECT rl1.label_id AS label_id1, rl2.label_id AS label_id2, COUNT(*) AS pair_count
+FROM Recipe_Label rl1
+JOIN Recipe_Label rl2 ON rl1.recipe_id = rl2.recipe_id AND rl1.label_id < rl2.label_id
+JOIN Episode_Combo ec ON rl1.recipe_id = ec.recipe_id
+GROUP BY rl1.label_id, rl2.label_id
+ORDER BY pair_count DESC
+LIMIT 3;
+
+#enable
+SET optimizer_trace="enabled=on";
+SELECT rl1.label_id AS label_id1, rl2.label_id AS label_id2, COUNT(*) AS pair_count
+FROM Recipe_Label rl1
+JOIN Recipe_Label rl2 ON rl1.recipe_id = rl2.recipe_id AND rl1.label_id < rl2.label_id
+JOIN Episode_Combo ec ON rl1.recipe_id = ec.recipe_id
+GROUP BY rl1.label_id, rl2.label_id
+ORDER BY pair_count DESC
+LIMIT 3;
+SELECT * FROM information_schema.optimizer_trace;
+SET optimizer_trace="enabled=off";
+
+#Indexes 
+#CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
+#CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
+#CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
+
+#force index
+SELECT rl1.label_id AS label_id1, rl2.label_id AS label_id2, COUNT(*) AS pair_count
+FROM Recipe_Label rl1 FORCE INDEX (idx_recipe_label_recipe_id, idx_recipe_label_label_id)
+JOIN Recipe_Label rl2 FORCE INDEX (idx_recipe_label_recipe_id, idx_recipe_label_label_id)
+ON rl1.recipe_id = rl2.recipe_id AND rl1.label_id < rl2.label_id
+JOIN Episode_Combo ec FORCE INDEX (idx_episode_combo_recipe_id)
+ON rl1.recipe_id = ec.recipe_id
+GROUP BY rl1.label_id, rl2.label_id
+ORDER BY pair_count DESC
+LIMIT 3;
+
+EXPLAIN SELECT rl1.label_id AS label_id1, rl2.label_id AS label_id2, COUNT(*) AS pair_count
+FROM Recipe_Label rl1 FORCE INDEX (idx_recipe_label_recipe_id, idx_recipe_label_label_id)
+JOIN Recipe_Label rl2 FORCE INDEX (idx_recipe_label_recipe_id, idx_recipe_label_label_id)
+ON rl1.recipe_id = rl2.recipe_id AND rl1.label_id < rl2.label_id
+JOIN Episode_Combo ec FORCE INDEX (idx_episode_combo_recipe_id)
+ON rl1.recipe_id = ec.recipe_id
+GROUP BY rl1.label_id, rl2.label_id
+ORDER BY pair_count DESC
+LIMIT 3;
+
+
+SET optimizer_trace="enabled=on";
+SELECT rl1.label_id AS label_id1, rl2.label_id AS label_id2, COUNT(*) AS pair_count
+FROM Recipe_Label rl1 FORCE INDEX (idx_recipe_label_recipe_id, idx_recipe_label_label_id)
+JOIN Recipe_Label rl2 FORCE INDEX (idx_recipe_label_recipe_id, idx_recipe_label_label_id)
+ON rl1.recipe_id = rl2.recipe_id AND rl1.label_id < rl2.label_id
+JOIN Episode_Combo ec FORCE INDEX (idx_episode_combo_recipe_id)
+ON rl1.recipe_id = ec.recipe_id
+GROUP BY rl1.label_id, rl2.label_id
+ORDER BY pair_count DESC
+LIMIT 3;
+SELECT * FROM information_schema.optimizer_trace;
+SET optimizer_trace="enabled=off";
+
 
 #query_07
 use db2024;
@@ -189,6 +263,57 @@ ON
     
 #query_08
 
+SELECT ec.episode_id, COUNT(DISTINCT re.equipment_id) AS equipment_count
+FROM Episode_Combo ec
+JOIN Recipe_Equipment re ON ec.recipe_id = re.recipe_id
+GROUP BY ec.episode_id
+ORDER BY equipment_count DESC
+LIMIT 1;
+
+#explanation
+EXPLAIN SELECT ec.episode_id, COUNT(DISTINCT re.equipment_id) AS equipment_count
+FROM Episode_Combo ec
+JOIN Recipe_Equipment re ON ec.recipe_id = re.recipe_id
+GROUP BY ec.episode_id
+ORDER BY equipment_count DESC
+LIMIT 1;
+
+#Enable the optimizer trace
+SET optimizer_trace="enabled=on";
+SELECT ec.episode_id, COUNT(DISTINCT re.equipment_id) AS equipment_count
+FROM Episode_Combo ec
+JOIN Recipe_Equipment re ON ec.recipe_id = re.recipe_id
+GROUP BY ec.episode_id
+ORDER BY equipment_count DESC
+LIMIT 1;
+SELECT * FROM information_schema.optimizer_trace;
+SET optimizer_trace="enabled=off";
+
+#Indexes for Recipe_Equipment table
+#CREATE INDEX idx_recipe_equipment_recipe_id ON Recipe_Equipment(recipe_id);
+#CREATE INDEX idx_recipe_equipment_equipment_id ON Recipe_Equipment(equipment_id);
+#CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
+
+#force index query
+SET optimizer_trace="enabled=on";
+SELECT ec.episode_id, COUNT(DISTINCT re.equipment_id) AS equipment_count
+FROM Episode_Combo ec FORCE INDEX (idx_episode_combo_recipe_id)
+JOIN Recipe_Equipment re FORCE INDEX (idx_recipe_equipment_recipe_id) ON ec.recipe_id = re.recipe_id
+GROUP BY ec.episode_id
+ORDER BY equipment_count DESC
+LIMIT 1;
+SELECT * FROM information_schema.optimizer_trace;
+SET optimizer_trace="enabled=off";
+
+#explain
+EXPLAIN SELECT ec.episode_id, COUNT(DISTINCT re.equipment_id) AS equipment_count
+FROM Episode_Combo ec FORCE INDEX (idx_episode_combo_recipe_id)
+JOIN Recipe_Equipment re FORCE INDEX (idx_recipe_equipment_recipe_id) ON ec.recipe_id = re.recipe_id
+GROUP BY ec.episode_id
+ORDER BY equipment_count DESC
+LIMIT 1;
+
+	
 #query_09
 use db2024;
 SELECT
