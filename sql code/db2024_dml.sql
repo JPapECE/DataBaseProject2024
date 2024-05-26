@@ -590,7 +590,7 @@ BEGIN
 END;
 //
 
-#(Primary Key indexes already exists)
+#(Primary Key and Foreign Key indexes already exist)
 CREATE INDEX idx_national_cuisine_country_name ON National_Cuisine(country_name);
 
 #Index on year and episode_number
