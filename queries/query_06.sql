@@ -32,7 +32,7 @@ LIMIT 3;
 SELECT * FROM information_schema.optimizer_trace;
 SET optimizer_trace="enabled=off";
 
-#Indexes 
+#Indexes uncomment to run the query plan
 #CREATE INDEX idx_recipe_label_recipe_id ON Recipe_Label(recipe_id);
 #CREATE INDEX idx_recipe_label_label_id ON Recipe_Label(label_id);
 #CREATE INDEX idx_episode_combo_recipe_id ON Episode_Combo(recipe_id);
