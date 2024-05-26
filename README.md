@@ -5,7 +5,8 @@ We created a database describing recipes, cooks and a cooking competition.
 
 The ER diagram for our database is:
 
-![er_240524_final (1)](https://github.com/JPapECE/DataBaseProject2024/assets/163539472/b223b80b-2b76-4325-a043-8ac0e5d0f4af)
+![er_250524_final drawio](https://github.com/JPapECE/DataBaseProject2024/assets/163539472/ec1c1e46-8a01-4079-bf17-becff97089fa)
+
 
 The relational diagram for our database is:
 
